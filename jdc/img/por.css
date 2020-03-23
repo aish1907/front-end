@@ -1,0 +1,86 @@
+body{
+margin-top:0px;}
+
+.thumbnail:hover{background:red;}
+
+.navbar-inverse{
+background:#2c3e50;
+margin-bottom:0px;
+
+}
+
+
+cen{
+align:center;}
+
+
+img { margin-top:0px;
+       padding-top:0;
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out;  
+    }
+
+    img:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    }
+
+    .btn1 {
+    background-color: grey;
+color:white;
+
+width:200px;
+  
+}
+
+.btn2{
+ background-color: white; 
+ 
+  color: grey;
+width:200px;
+}
+
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+ body main#primary {
+      background: #fff;
+      padding-top: 10px;
+  }
+
+  main#primary .wrapper {
+      padding: 0px;
+      box-sizing: border-box;
+  }
+.hey:hover{background:#97ADC2;}
+
+.btn3 .btn4{
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+   
+
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
